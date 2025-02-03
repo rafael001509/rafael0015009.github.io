@@ -1,0 +1,74 @@
+/* o body que indica como que a estrutura do site vai ser mostrado para os usuários */
+body {
+    background-image: url(pablofundo44.jpg); /* essa "tag" indica a imagem do Fundo da estrutura */
+    margin: 0; /* essa "tag" indica que a margem da estrutura estar em zero (vazia) */
+    background-size: cover; /* essa "tag" Esticar ou cortar a imagem para que ela caiba perfeitamente em todo o fundo da estrutura. */
+    font-family: Arial, Helvetica, sans-serif; /* essa "tag serve" para alterar a Fonte da estrutura*/
+    font-weight: bold; /* essa "tag" serve para deixar a letra da estrutura em negrito*/
+}
+
+/* Links da estrutura */
+a {
+    color: sandybrown; /* essa "tag" serve para deixar a letra do link com Cor */
+    font-family: Arial, Helvetica, sans-serif; /*essa "tag" serve para alterar a Fonte do link */
+    font-weight: bold; /* essa "tag" serve para deixar a cor do link em Negrito */
+    text-decoration: none; /* essa "tag" serve nesse caso para indicar que não tem sublinhamento*/
+    margin: 60px; /* essa "tag" serve para indicar que a Margem do link estar em 60px  */
+    text-align: start; /*essa "tag" serve para indicar que o link estar Alinhado à esquerda */
+    float: left; /* essa "tag" serve para indicar que o link estar Flutuando a esquerda */
+    font-size: 20px; /* essa "tag" serve para indicar o Tamanho da letra do link */
+}
+
+/* Imagens da estrutura */
+img {
+    height: 50px; /* essa "tag" serve para indicar que Altura da imagem do link estar em 50px */
+    margin-top: 30px; /* essa "tag" serve para indicar que o espaçamento externo superior estar em 30px */
+}
+
+/* Parágrafos da estrutura */
+p {
+    font-size: 40px; /* essa "tag" serve para indicar o tamanho da fonte do paragrafo que estar em 40px */
+    margin-top: 500px; /* essa "tag" serve para indicar a margem superior paragrafo que estar em 500px */
+    margin-left: -250px; /* essa "tag" serve para indicar que espaçamento externo esquerdo do paragrafo estar em -250px */
+    float: left; /* essa "tag" serve para indicar que o paragrafo estar flutuando à esquerda */
+    color: white; /* essa "tag" serve para indicar que o paragrafo estar com o texto na cor branca */
+}
+
+/* Título da estrutura */
+h1 {
+    margin-top: 530px;  /* essa "tag" serve para indicar a margem superior do título que estar em 530px */ 
+    float: left; /* essa "tag" serve para indicar que o título estár flutuando à esquerda*/
+    margin-left: -185px; /* essa "tag" serve para indicar que espaçamento externo esquerdo do título estar em -185px */
+    font-size: 50px; /* essa "tag" serve para indicar o tamanho da fonte do título que estar em 50px */
+    color: white; /* essa "tag" serve para indicar que o título estar com o texto na cor branca */
+}
+
+/* Ícone Instagram */
+.instagram {
+    border-bottom: none; /* essa "tag" serve para indicar que estar Sem borda para o link */
+    width: 140px; /*essa "tag" serve para indicar que Largura da imagem do link estar em 140px */
+    height: 70px; /* essa "tag" serve para indicar que Altura da imagem do link estar em 70px */
+    float: left; /* essa "tag" serve para indicar que o link estar flutuando à esquerda */
+    margin-top: 520px; /* essa "tag" serve para indicar que o espaçamento externo superior estar em 520px */
+    margin-left: -1060px; /* essa "tag" serve para indicar que espaçamento externo esquerdo estar em -1060px */
+}
+
+/* Ícone YouTube */
+.youtube {
+    border-bottom: none; /* essa "tag" serve para indicar que estar Sem borda para o link */
+    width: 50px; /*essa "tag" serve para indicar que Largura da imagem do link estar em 50px */
+    height: 50px; /* essa "tag" serve para indicar que Altura da imagem do link estar em 50px */
+    margin-top: 252px; /* essa "tag" serve para indicar que o espaçamento externo superior estar em 252px */
+    margin-left: -500px; /* essa "tag" serve para indicar que espaçamento externo esquerdo estar em -500px */
+    float: left; /* essa "tag" serve para indicar que o link estar flutuando à esquerda */
+}
+
+/* Ícone Spotify */
+.spotify {
+    border-bottom: none; /* essa "tag" serve para indicar que estar Sem borda para o link */
+    width: 55px; /*essa "tag" serve para indicar que Largura da imagem do link estar em 55px */
+    height: 55px; /* essa "tag" serve para indicar que Altura da imagem do link estar em 55px */
+    margin-top: 445px; /* essa "tag" serve para indicar que o espaçamento externo superior estar em 445px */
+    margin-left: -990px; /* essa "tag" serve para indicar que espaçamento externo esquerdo estar em -990px */
+    float: left; /* essa "tag" serve para indicar que o link estar flutuando à esquerda */
+}
